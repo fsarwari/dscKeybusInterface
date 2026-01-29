@@ -1,0 +1,14 @@
+
+const char* wifiSSID = "";
+const char* wifiClientHostname = "wificlient-hostname";
+const char* wifiPassword = "";
+const char* accessCode = "";    // An access code is required to disarm/night arm and may be required to arm or enable command outputs based on panel configuration.
+const char* mqttServer = "";    // MQTT server domain name or IP address
+const int   mqttPort = 1883;    // MQTT server port
+const char* mqttUsername = "";  // Optional, leave blank if not required
+const char* mqttPassword = "";  // Optional, leave blank if not required
+
+// NTP time synchronization settings (optional - defaults will be used if not defined)
+// #define ntpTimeZone TZ_America_New_York  // Set the time zone (includes DST): https://github.com/esp8266/Arduino/blob/master/cores/esp8266/TZ.h
+// const char* ntpServer = "pool.ntp.org";  // Set the NTP server
+// #define timePartition 1  // Set the partition to use for setting the time
